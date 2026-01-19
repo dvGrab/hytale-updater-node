@@ -1,0 +1,1 @@
+deno compile --allow-all ./source/index.ts --target x86_x64-pc-windows-msvc
