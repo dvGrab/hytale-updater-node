@@ -35,5 +35,8 @@ To build the project from source:
 ## Config 
 ```json
 {
-    "server_path": "path"
+    "updater": "https://downloader.hytale.com/hytale-downloader.zip",
+    "server_path": "./files",
+    "downloader_path": "./downloader",
+    "downloader_name": "hytale-downloader-windows-amd64.exe"
 }
