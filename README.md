@@ -2,7 +2,7 @@
 
 The **Hytale Server Updater** is a lightweight update tool written in **Node.js / TypeScript** that allows you to keep your Hytale server up to date with a single click.
 
-The updater automatically checks the latest available `server.zip` and compares it with your local server version.  
+The updater automatically checks the latest available server version and compares it with your local server version.  
 If your server is outdated or missing, the updater will **download and extract** the newest version directly into the path defined in your **`config.json`**.
 
 ---
@@ -19,7 +19,8 @@ If your server is outdated or missing, the updater will **download and extract**
 
 ## Download
 
-🚧 *Coming soon*
+- https://github.com/dvGrab/hytale-updater-node/releases/tag/release
+- Extract into a folder and execute the **updater.exe**
 
 ---
 
