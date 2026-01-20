@@ -1,0 +1,1 @@
+deno compile --allow-all ./source/index.ts --target x86_64-unknown-linux-gnu
