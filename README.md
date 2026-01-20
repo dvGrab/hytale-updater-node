@@ -45,6 +45,7 @@ Windows:
     "downloader_path": "./downloader",
     "downloader_name": "hytale-downloader-windows-amd64.exe"
 }
+```
 
 Linux:
 ```json
@@ -54,3 +55,4 @@ Linux:
     "downloader_path": "./downloader",
     "downloader_name": "hytale-downloader-linux-amd64"
 }
+```
