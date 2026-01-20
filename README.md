@@ -23,7 +23,7 @@ Make sure to give all directories of the updater full read and write rights.
 ## Download
 
 - https://github.com/dvGrab/hytale-updater-node/releases/tag/release
-- Extract into a folder and execute the **updater.exe**
+- Extract into a folder and execute the **updater.exe/updater**
 
 ---
 
@@ -37,10 +37,20 @@ To build the project from source:
 - Execute **source/index.js** or execute **compile.bat**
 
 ## Config 
+Windows:
 ```json
 {
     "updater": "https://downloader.hytale.com/hytale-downloader.zip",
     "server_path": "./files",
     "downloader_path": "./downloader",
     "downloader_name": "hytale-downloader-windows-amd64.exe"
+}
+
+Linux:
+```json
+{
+    "updater": "https://downloader.hytale.com/hytale-downloader.zip",
+    "server_path": "./files",
+    "downloader_path": "./downloader",
+    "downloader_name": "hytale-downloader-linux-amd64"
 }
